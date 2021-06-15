@@ -1,6 +1,9 @@
 # simple-tcp-proxy
 simple tcp proxy made with java
 
+## dependencies
+io.netty:netty-all:5.0.0.Alpha2
+
 ## usage
 java -jar <jar> --listenHost=<listenIP> --listenPort=<listenPort> --remoteHost=<remoteHost> --remotePort=<remortPort>
 
